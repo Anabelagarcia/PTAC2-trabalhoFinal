@@ -31,3 +31,21 @@ const salvar = (e) => {
     setId(id+1)
     setLink("")
 }
+
+return(
+    <div>
+    
+     <h2>Cadastre</h2>
+        <form onSubmit={salvar}>
+            <input
+              type="text"
+              value={nome}
+              onChange={(e) => { setNome (e.target.value);
+            }}/>
+            
+
+             <button>ADD</button>
+        </form>
+        <div class="row row-cols-4 mx-5" >
+    </div>
+)
