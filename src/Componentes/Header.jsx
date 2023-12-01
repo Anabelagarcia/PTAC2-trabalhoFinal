@@ -1,11 +1,10 @@
-export default function Header(){
-  return(
+import { useState } from "react";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-    <div class= "header">
-         <h1>Ola</h1>
-    </div>
-  );
-}
+export default function Menu(){
+     return(
+          <div></div>
+     )
 
-
-
+};

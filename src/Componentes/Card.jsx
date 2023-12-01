@@ -1,12 +1,9 @@
+import { useState } from "react";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-
-
-function Cards({ listaVideos }){
-
+export default function Card() {
      return (
-        listaVideos.map((video) =>
-        <div className="card">
-            
-        </div>)
+      <div></div>
      )
-     }
+}
