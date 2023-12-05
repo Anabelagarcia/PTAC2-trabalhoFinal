@@ -50,33 +50,37 @@ return(
     <Header/>
      <h2>Cadastre</h2>
         <form onSubmit={salvar}>
+         <p>Nome</p>
             <input
               type="text"
               value={nome}
               onChange={(e) => { setNome (e.target.value);
             }}/>
-            
+            <p>Gênero</p>
             <input
               type="text"
               value={genero}
               onChange={(e) => { setGenero (e.target.value);
             }}/>
-
+            <p>Descrição</p>
            <input
               type="text"
               value={descricao}
               onChange={(e) => { setDescricao (e.target.value);
             }}/>
+            <p>Sinopse</p>
             <input
               type="text"
               value={sinopse}
               onChange={(e) => { setSinopse (e.target.value);
             }}/>
+            <p>Link</p>
             <input
               type="text"
               value={link}
               onChange={(e) => { setLink (e.target.value);
             }}/>
+            <p>Recomendação</p>
             <input
               type="text"
               value={recomendacao}

@@ -14,38 +14,38 @@ export default function Header(){
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Mundo ADD</a>
+              <a class="nav-link active" aria-current="page" href="#"> <Link to= "/cadastro">Cadastrar</Link></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Mulheres</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Homens</a>
+              <a class="nav-link" href="#">Ação</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Infantil</a>
+              <a class="nav-link" href="#">Terror</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Esportes</a>
+              <a class="nav-link" href="#">Romance</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Novidades</a>
+              <a class="nav-link" href="#">Suspense</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Acessórios</a>
+              <a class="nav-link" href="#">Para toda a família</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Coleções</a>
+              <a class="nav-link" href="#">Desenho</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Marcas
+                Lançamentos
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Puma</a></li>
-                <li><a class="dropdown-item" href="#">Nike</a></li>
-                <li><hr class="dropdown-divider"/></li>
-                <li><a class="dropdown-item" href="#">Adidas</a></li>
+                <li><a class="dropdown-item" href="#">Hoje</a></li>
+                <li><a class="dropdown-item" href="#">Essa semana</a></li>
+                <li><hr class="dropdown-divider"/>Novos episódios</li>
+                <li><a class="dropdown-item" href="#">Novelas</a></li>
               </ul>
             </li>
             <li class="nav-item">
