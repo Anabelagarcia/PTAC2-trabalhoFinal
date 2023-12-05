@@ -5,15 +5,17 @@ import Header from '../Componentes/Header';
 
 
 export default function Cadastro(){
-     
+
+    const listaLocalStorage = JSON.parse(localStorage.getItem("Lista")); 
+    const [lista, setLista] = useState( listaLocalStorage || []);
     const [nome, setNome] = useState("")
     const [genero, setGenero] = useState("")
     const [descricao, setDescricao] = useState("")
     const [sinopse, setSinopse] = useState("")
-    const [id, setId] = useState(1)
+    const [recomendacao, setRecomendacao] = useState("")
+    const [id, setId] = useState(listaLocalStorage[listaLocalStorage.length - 1]?.id + 1 || 1);
     const [link, setLink] = useState("")
-    const [lista, setLista] = useState([])
-
+   
     
     
     useEffect(() => {
@@ -28,6 +30,7 @@ const salvar = (e) => {
         genero: genero,
         descricao: descricao,
         sinopse: sinopse,
+        recomendacao: recomendacao,
         id:id,
         link: link 
     }]);
@@ -38,6 +41,7 @@ const salvar = (e) => {
     setSinopse("")
     setId(id+1)
     setLink("")
+    setRecomendacao("")
 }
 
 return(
@@ -63,6 +67,23 @@ return(
               value={descricao}
               onChange={(e) => { setDescricao (e.target.value);
             }}/>
+            <input
+              type="text"
+              value={sinopse}
+              onChange={(e) => { setSinopse (e.target.value);
+            }}/>
+            <input
+              type="text"
+              value={link}
+              onChange={(e) => { setLink (e.target.value);
+            }}/>
+            <input
+              type="text"
+              value={recomendacao}
+              onChange={(e) => { setRecomendacao (e.target.value);
+            }}/>
+
+
 
             
 

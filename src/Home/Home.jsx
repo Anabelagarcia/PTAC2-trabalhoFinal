@@ -10,7 +10,7 @@ export default function Home(){
         <div>
            <Header/>
            <Menu/>
-           <h1>PTAC 2 - PROJETO FINAL</h1>
+           
            <Link to= "/cadastro">Cadastrar</Link>
         </div>
      );
