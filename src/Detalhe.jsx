@@ -6,7 +6,15 @@ export default function Detalhe(){
     let lista = JSON.parse(localStorage.getItem("Lista"));
    return (
       <div>
-         <h1>Em alta</h1>
+         
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <div className="img">
+    <img src="https://www.youtube.com/img/trending/avatar/trending.png"></img>
+    <a class="navbar-brand" href="#">Em alta </a>
+  </div>
+  </div>
+  </nav>
          <div class="row row-cols-4 mx-5" >
          {lista.map((atividade)=> ( 
             <div class="col">
