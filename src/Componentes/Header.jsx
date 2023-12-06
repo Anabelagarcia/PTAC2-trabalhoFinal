@@ -14,10 +14,10 @@ export default function Header(){
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"> <Link to= "/cadastro">Cadastrar</Link></a>
+              <a class="nav-link active" aria-current="page" href="#"> <Link to= "/cadastro">CADASTRAR</Link></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mulheres</a>
+              <a class="nav-link" href="#"><Link to= "/detalhe">EM ALTA</Link></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Ação</a>

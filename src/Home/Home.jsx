@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 import Header from '../Componentes/Header';
 import Menu from "../Componentes/Menu";
+import Detalhe from "../Detalhe";
 
 
 export default function Home(){ 
@@ -10,11 +11,12 @@ export default function Home(){
       <div>
          <Header/>
          <Menu/>
+         <Detalhe/>
          <div class="row row-cols-4 mx-5" >
          {lista.map((atividade)=> ( 
             <div class="col">
             <div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+  <iframe src={"https://www.youtube.com/embed/" + atividade.link.slice(17)} title="YouTube video" allowfullscreen></iframe>
 </div>
             <div class="card" key={atividade.id}>
             <div class="card-body" />
