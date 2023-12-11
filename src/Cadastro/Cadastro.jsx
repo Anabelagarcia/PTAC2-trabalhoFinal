@@ -48,6 +48,7 @@ return(
   
    <div>
     <Header/>
+    <div className="text-center text-white">
      <h2 className="text-center">Cadastre</h2>
         <form className = "text-center" onSubmit={salvar}>
          <p>Nome</p>
@@ -94,6 +95,7 @@ return(
              <button>ADD</button>
         </form>
         <div class="row row-cols-4 mx-5" ></div>
+    </div>
     </div>
 )
 
