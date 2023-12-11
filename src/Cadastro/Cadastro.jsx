@@ -48,8 +48,8 @@ return(
   
    <div>
     <Header/>
-     <h2>Cadastre</h2>
-        <form onSubmit={salvar}>
+     <h2 className="text-center">Cadastre</h2>
+        <form className = "text-center" onSubmit={salvar}>
          <p>Nome</p>
             <input
               type="text"
