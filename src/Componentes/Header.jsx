@@ -17,7 +17,7 @@ export default function Header(){
               <a class="nav-link active" aria-current="page" href="#"> <Link to= "/cadastro">CADASTRAR</Link></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><Link to= "/detalhe">EM ALTA</Link></a>
+              <a class="nav-link" href="#"><Link to= "/destaque">EM ALTA</Link></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Ação</a>

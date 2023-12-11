@@ -2,8 +2,7 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 import Header from '../Componentes/Header';
 import Menu from "../Componentes/Menu";
-import Detalhe from "../Detalhe";
-import Destaque from "../Destaque";
+
 
 
 export default function Home(){ 
@@ -12,8 +11,6 @@ export default function Home(){
       <div>
          <Header/>
          <Menu/>
-         <Detalhe/>
-         <Destaque/>
          <div class="row row-cols-4 mx-5" >
          {lista.map((atividade)=> ( 
             <div class="col">
