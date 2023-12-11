@@ -22,7 +22,7 @@ export default function Detalhe(){
   <iframe src={"https://www.youtube.com/embed/" + atividade.link.slice(17)} title="YouTube video" allowfullscreen></iframe>
 </div>
             <div class="card" key={atividade.id}>
-            <div class="card-body" />
+            <div class="card-body"/>
               <h5 class="card-title">{atividade.nome}</h5>
               <p class="card-text">{atividade.genero}</p>
               </div>
